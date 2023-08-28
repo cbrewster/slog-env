@@ -10,6 +10,14 @@ Examples:
   - `GO_LOG=info,mypackage=debug` will set the log level to info by default, but sets it to debug for logs from mypackage.
   - `GO_LOG=info,mypackage=debug,otherpackage=error` you can specify multiple packages by using a comma separator.
 
+## Installation
+
+```
+go get github.com/cbrewster/slog-env
+```
+
+## Usage
+
 To set up [slog-env], wrap your normal slog handler:
 
 ```go
