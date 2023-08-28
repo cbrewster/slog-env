@@ -18,7 +18,7 @@ go get github.com/cbrewster/slog-env
 
 ## Usage
 
-To set up [slog-env], wrap your normal slog handler:
+To set up `slog-env`, wrap your normal slog handler:
 
 ```go
 import (
