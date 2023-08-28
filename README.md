@@ -1,5 +1,7 @@
 # slog-env
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/cbrewster/slog-env.svg)](https://pkg.go.dev/github.com/cbrewster/slog-env)
+
 slog-env provides a [log/slog](https://pkg.go.dev/log/slog) handler which allows setting the log level
 via the GO_LOG environment variable. Additionally it allows setting the log level on a per-package basis.
 
